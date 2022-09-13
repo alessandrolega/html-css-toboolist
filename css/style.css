@@ -27,3 +27,40 @@ header img {
     font-weight: bold;
     vertical-align: middle;
 }
+
+.main-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.container1{
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid lightgray
+    
+}
+
+#button-task {
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin: 20px 80px;
+    background-color: #47ADF1;
+    border-radius: 5px;
+    color: white;
+}
+
+#button-section {
+    border: 1px solid lightgrey;
+    width: 100px;
+    height: 30px;
+    margin: -80px;
+    background-color: white;
+    border-radius: 5px;
+    color: grey;
+
