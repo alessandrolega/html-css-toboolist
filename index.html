@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboo List</title>
     <link rel="stylesheet" href="css/style.css">
+<!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,17 +17,33 @@
             <img src="img/Logo.png" alt="logo">
             <span id="logo-text">Toboolist</span>        
     </header>
-</body>
-
-<main class="main-container">
-    <div class="container1">
-        <button id="button-task">Add Task</button>
-        <button id="button-section">Add Section</button>
+<main>
+    <div class="main-container">
+        <div class="container1">
+            <button id="button-task">Add Task</button>
+            <button id="button-section">Add Section</button>
+        </div>
+        <div class="list-container">
+            <ul>
+                <li class="list-newtask">New Task</li>
+                <li class="list-quarterly">Quarterly Newsletter <button class="button-editorial">Editorial</button></li>
+            </ul>
+            <ul>
+                <li class="list-newtask">Today</li>
+                <li class="list-recruiting">Rectruiting blog post <button class="button-editorial">Editorial</button></li>
+                <li class="list-applaunch">Mobile app launch <button class="button-applaunch">Q1 Goals</button></li>
+                <li class="list-interview">Interview John H. <button class="button-interview">Recruiting</button></li>
+                <li class="list-summit">Summit update mobiile storefronts <button class="button-summit">Mobile</button></li>
+            </ul>
     </div>
+    
+    </div>
+    
 
         
         
 </main>
+</body>
 
 
 </html>
