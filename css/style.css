@@ -33,7 +33,7 @@ header img {
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    height: 700px;
+    height: 750px;
     background-color: white;
     border-radius: 5px;
 }
@@ -81,7 +81,8 @@ header img {
     content: '\25BE';
 }
 
-.list-quarterly{
+.list-quarterly, .list-recruiting, .list-applaunch, .list-interview, .list-summit,
+.list-meeting, .list-homepage, .list-onboard, .list-review{
     list-style: none;
     font-size: 18px;   
 }
@@ -99,10 +100,6 @@ header img {
     
 }
 
-.list-recruiting{
-    list-style: none;
-    font-size: 18px; 
-}
 
 .list-recruiting::before{
     content: '\2713';
@@ -126,11 +123,6 @@ header img {
 
 }
 
-.list-applaunch{
-    list-style: none;
-    font-size: 18px; 
-
-}
 
 .button-applaunch{
     border: none;
@@ -154,10 +146,6 @@ header img {
     margin-bottom: 25px;
 }
 
-.list-interview{
-    list-style: none;
-    font-size: 18px; 
-}
 
 .button-interview{
     border: none;
@@ -181,10 +169,6 @@ header img {
     margin-bottom: 25px;
 }
 
-.list-summit{
-    list-style: none;
-    font-size: 18px;
-}
 
 .button-summit{
     border: none;
@@ -206,6 +190,76 @@ header img {
     margin-top: 10px;
     margin-bottom: 25px;
 }
+
+
+.list-meeting::before{
+    content: '\2716';
+    color: #ED6B65;
+    border: 1px solid #ED6B65;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.button-website{
+    border: none;
+    background-color: #D863A1;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+.list-homepage::before{
+    content: '\2713';
+    color: #64C0A9;
+    border: 1px solid #64C0A9;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.button-onboard{
+    border: none;
+    background-color: #94A824;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+.list-onboard::before{
+    content: '\2713';
+    color: #64C0A9;
+    border: 1px solid #64C0A9;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.list-review::before{
+    content: '\2713';
+    color: #64C0A9;
+    border: 1px solid #64C0A9;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
     
 
     
